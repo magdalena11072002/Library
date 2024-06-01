@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/controller-book")
+@RequestMapping("/controller_book")
 @Slf4j
 public class ControllerBook {
 
