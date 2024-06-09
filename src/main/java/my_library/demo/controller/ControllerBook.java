@@ -56,7 +56,7 @@ public class ControllerBook {
     public ResponseEntity deleteBook(@RequestParam Long id){
         try{
             mainService.deleteBookFromBooks(id);
-            return ResponseEntity.status(204).build();
+            return ResponseEntity.status(200).build();
         }
         catch (Exception ex){
             ex.printStackTrace();
